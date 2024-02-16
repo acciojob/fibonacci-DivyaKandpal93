@@ -4,8 +4,8 @@ function fibonacci(num) {
 	for (let index = 2; index < num; index++) {
 		fib[index]= fib[index-1] + fib[index-2];
 	}
-	console.log(fib);
-	return fib;
+	// console.log(fib);
+	return fib[num-1];
 }
 
 module.exports = fibonacci;
